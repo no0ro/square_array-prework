@@ -5,3 +5,11 @@ def square_array(array)
   end
   new_numbers
 end
+
+def square_array(array)
+ new_numbers = []
+  array.each do |square|
+   new_numbers << square**2
+  end
+  new_numbers
+end
